@@ -11,4 +11,5 @@ class Links:
     UPLOAD_AND_DOWNLOAD_PAGE = f"{HOST}/upload-download"
     DYNAMIC_PROPERTIES_PAGE = f"{HOST}/dynamic-properties"
     PRACTICE_FORM_PAGE = f"{HOST}/automation-practice-form"
+    BROWSER_WINDOWS_PAGE = f"{HOST}/browser-windows"
     # PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"
