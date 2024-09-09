@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57e7701-8523-43d7-ac2f-e3fd94ad2e39" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/allure_results/history/categories-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure_results/history/duration-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure_results/history/history-trend.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure_results/history/history.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/allure_results/history/retry-trend.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyt/base/base_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/base/base_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyt/base/base_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/base/base_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyt/config/links.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/config/links.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyt/pages/web_tables_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/pages/web_tables_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyt/tests/test_web_table.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/tests/test_web_table.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,20 +39,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests for test_broken_links_images.TestBrokenLinksImages.executor": "Run",
-    "Python tests.Python tests for test_broken_links_images.TestBrokenLinksImages.test_broken_links.executor": "Run",
-    "Python tests.Python tests for test_demo_qa_elements.TestInputData.executor": "Run",
-    "Python tests.Python tests for test_demo_qa_elements.TestInputData.test_input_data.executor": "Run",
-    "Python.text_box_page.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Laptop/PycharmProjects/demo_qa_project/allure_results"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests for test_broken_links_images.TestBrokenLinksImages.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_broken_links_images.TestBrokenLinksImages.test_broken_links.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_demo_qa_elements.TestInputData.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_demo_qa_elements.TestInputData.test_input_data.executor&quot;: &quot;Run&quot;,
+    &quot;Python.text_box_page.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Laptop/PycharmProjects/stepik_pythonProject1/date_picker.py&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Laptop\PycharmProjects\demo_qa_project\allure_results" />

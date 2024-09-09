@@ -5,6 +5,7 @@ from tyt.pages.buttons_page import ButtonsPage
 from tyt.pages.check_box_page import CheckBoxPage
 from tyt.pages.dynamic_properties_page import DynamicPropertiesPage
 from tyt.pages.links_page import LinksPage
+from tyt.pages.practice_form_page import PracticeFormPage
 from tyt.pages.radio_button_page import RadioButtonPage
 # from config.data import Data
 from tyt.pages.text_box_page import TextBoxPage
@@ -27,6 +28,7 @@ class BaseTest:
     broken_links_images_page: BrokenLinksImagesPage
     upload_and_download_page: UploadAndDownloadPage
     dynamic_properties_page: DynamicPropertiesPage
+    practice_form_page: PracticeFormPage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -42,3 +44,4 @@ class BaseTest:
         request.cls.broken_links_images_page = BrokenLinksImagesPage(driver)
         request.cls.upload_and_download_page = UploadAndDownloadPage(driver)
         request.cls.dynamic_properties_page = DynamicPropertiesPage(driver)
+        request.cls.practice_form_page = PracticeFormPage(driver)

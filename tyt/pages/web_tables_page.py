@@ -28,23 +28,23 @@ class WebTablesPage(BasePage):
     def click_button_add(self):
         self.wait.until(EC.element_to_be_clickable(self.ADD_BUTTON)).click()
 
-    def input_first_name(self):
-        self.wait.until(EC.element_to_be_clickable(self.FIRST_NAME_FIELD)).send_keys("Ivan")
+    def input_first_name(self, first_name):
+        self.wait.until(EC.element_to_be_clickable(self.FIRST_NAME_FIELD)).send_keys(first_name)
 
-    def input_last_name(self):
-        self.wait.until(EC.element_to_be_clickable(self.LAST_NAME_FIELD)).send_keys("Ivanov")
+    def input_last_name(self, last_name):
+        self.wait.until(EC.element_to_be_clickable(self.LAST_NAME_FIELD)).send_keys(last_name)
 
-    def input_email(self):
-        self.wait.until(EC.element_to_be_clickable(self.EMAIL_FIELD)).send_keys("IvanIvanov@Example.com")
+    def input_email(self, email):
+        self.wait.until(EC.element_to_be_clickable(self.EMAIL_FIELD)).send_keys(email)
 
-    def input_age(self):
-        self.wait.until(EC.element_to_be_clickable(self.AGE_FIELD)).send_keys("33")
+    def input_age(self, age):
+        self.wait.until(EC.element_to_be_clickable(self.AGE_FIELD)).send_keys(age)
 
-    def input_salary(self):
-        self.wait.until(EC.element_to_be_clickable(self.SALARY_FIELD)).send_keys("200000")
+    def input_salary(self, salary):
+        self.wait.until(EC.element_to_be_clickable(self.SALARY_FIELD)).send_keys(salary)
 
-    def input_department(self):
-        self.wait.until(EC.element_to_be_clickable(self.DEPARTMENT_FIELD)).send_keys("AQA")
+    def input_department(self, department):
+        self.wait.until(EC.element_to_be_clickable(self.DEPARTMENT_FIELD)).send_keys(department)
 
     def click_submit(self):
         self.wait.until(EC.element_to_be_clickable(self.SUBMIT_BUTTON)).click()
@@ -69,7 +69,7 @@ class WebTablesPage(BasePage):
 
     def click_delete_button(self):
         self.wait.until(EC.element_to_be_clickable(self.DELETE_BUTTON)).click()
-        self.wait.until(EC.element_to_be_clickable(self.TEST_WORD)).is_displayed(), "текста нет"
+        self.wait.until(EC.element_to_be_clickable(self.TEST_WORD)).is_displayed(), "текст отсутствует"
 
 
 

@@ -2,12 +2,13 @@ import allure
 from allure_commons.types import AttachmentType
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.webdriver import WebDriver
 
 
 class BasePage:
 
     def __init__(self, driver):
-        self.driver = driver
+        self.driver: WebDriver = driver
         self.wait = WebDriverWait(driver, 20, poll_frequency=1)
 
     """Метод открытия страницы ресурса"""
@@ -28,3 +29,7 @@ class BasePage:
             attachment_type=AttachmentType.PNG
         )
 
+    """Scroll"""
+    def scroll_page(self, x, y):
+        self.driver.execute_script(f"window.scrollBy({x}, {y})")
+        print("scroll to element")
