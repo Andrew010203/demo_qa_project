@@ -1,5 +1,6 @@
 import pytest
 
+from tyt.pages.alerts_page import AlertsPage
 from tyt.pages.broken_links_images_page import BrokenLinksImagesPage
 from tyt.pages.browser_windows_page import BrowserWindowsPage
 from tyt.pages.buttons_page import ButtonsPage
@@ -31,6 +32,7 @@ class BaseTest:
     dynamic_properties_page: DynamicPropertiesPage
     practice_form_page: PracticeFormPage
     browser_windows_page: BrowserWindowsPage
+    alerts_page: AlertsPage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -48,3 +50,4 @@ class BaseTest:
         request.cls.dynamic_properties_page = DynamicPropertiesPage(driver)
         request.cls.practice_form_page = PracticeFormPage(driver)
         request.cls.browser_windows_page = BrowserWindowsPage(driver)
+        request.cls.alerts_page = AlertsPage(driver)

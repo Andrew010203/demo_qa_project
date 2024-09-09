@@ -12,4 +12,5 @@ class Links:
     DYNAMIC_PROPERTIES_PAGE = f"{HOST}/dynamic-properties"
     PRACTICE_FORM_PAGE = f"{HOST}/automation-practice-form"
     BROWSER_WINDOWS_PAGE = f"{HOST}/browser-windows"
+    ALERTS_PAGE = f"{HOST}/alerts"
     # PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"

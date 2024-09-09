@@ -10,7 +10,7 @@ class TestBrowserWindows(BaseTest):
     @allure.title("Test switching")
     @allure.severity("Critical")
     # @pytest.mark.smoke
-    def test_input_data(self):
+    def test_browser_windows(self):
         self.browser_windows_page.open()
         self.browser_windows_page.is_opened()
         self.browser_windows_page.check_main_word()
