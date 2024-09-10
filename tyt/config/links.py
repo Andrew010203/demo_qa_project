@@ -14,4 +14,5 @@ class Links:
     BROWSER_WINDOWS_PAGE = f"{HOST}/browser-windows"
     ALERTS_PAGE = f"{HOST}/alerts"
     FRAMES_PAGE = f"{HOST}/frames"
+    NESTED_FRAMES_PAGE = f"{HOST}/nestedframes"
     # PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"

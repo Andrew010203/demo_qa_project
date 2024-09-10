@@ -8,6 +8,7 @@ from tyt.pages.check_box_page import CheckBoxPage
 from tyt.pages.dynamic_properties_page import DynamicPropertiesPage
 from tyt.pages.frames_page import FramesPage
 from tyt.pages.links_page import LinksPage
+from tyt.pages.nested_frames_page import NestedFramesPage
 from tyt.pages.practice_form_page import PracticeFormPage
 from tyt.pages.radio_button_page import RadioButtonPage
 # from config.data import Data
@@ -35,6 +36,7 @@ class BaseTest:
     browser_windows_page: BrowserWindowsPage
     alerts_page: AlertsPage
     frames_page: FramesPage
+    nested_frames_page: NestedFramesPage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -54,3 +56,4 @@ class BaseTest:
         request.cls.browser_windows_page = BrowserWindowsPage(driver)
         request.cls.alerts_page = AlertsPage(driver)
         request.cls.frames_page = FramesPage(driver)
+        request.cls.nested_frames_page = NestedFramesPage(driver)
