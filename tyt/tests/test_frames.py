@@ -17,4 +17,3 @@ class TestFrames(BaseTest):
         self.frames_page.switch_to_iframe_1()
         self.frames_page.switch_to_default_content()
         self.frames_page.switch_to_iframe_2()
-        time.sleep(3)

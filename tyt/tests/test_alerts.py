@@ -17,4 +17,3 @@ class TestAlerts(BaseTest):
         self.alerts_page.click_button_to_see_alert_after_5_seconds()
         self.alerts_page.click_button_confirm_box_will_appear()
         self.alerts_page.click_button_prompt_box_will_appear("hello world")
-        time.sleep(5)

@@ -17,4 +17,3 @@ class TestNestedFrames(BaseTest):
         self.nested_frames_page.switch_to_parent_iframe()
         self.nested_frames_page.switch_to_child_iframe()
         self.nested_frames_page.switch_to_default_content()
-        time.sleep(3)

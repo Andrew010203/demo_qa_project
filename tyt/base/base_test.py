@@ -8,6 +8,7 @@ from tyt.pages.check_box_page import CheckBoxPage
 from tyt.pages.dynamic_properties_page import DynamicPropertiesPage
 from tyt.pages.frames_page import FramesPage
 from tyt.pages.links_page import LinksPage
+from tyt.pages.modal_dialogs_page import ModalDialogsPage
 from tyt.pages.nested_frames_page import NestedFramesPage
 from tyt.pages.practice_form_page import PracticeFormPage
 from tyt.pages.radio_button_page import RadioButtonPage
@@ -37,6 +38,7 @@ class BaseTest:
     alerts_page: AlertsPage
     frames_page: FramesPage
     nested_frames_page: NestedFramesPage
+    modal_dialogs_page: ModalDialogsPage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -57,3 +59,4 @@ class BaseTest:
         request.cls.alerts_page = AlertsPage(driver)
         request.cls.frames_page = FramesPage(driver)
         request.cls.nested_frames_page = NestedFramesPage(driver)
+        request.cls.modal_dialogs_page = ModalDialogsPage(driver)

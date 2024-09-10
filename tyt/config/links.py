@@ -15,4 +15,5 @@ class Links:
     ALERTS_PAGE = f"{HOST}/alerts"
     FRAMES_PAGE = f"{HOST}/frames"
     NESTED_FRAMES_PAGE = f"{HOST}/nestedframes"
+    MODAL_DIALOGS_PAGE = f"{HOST}/modal-dialogs"
     # PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"
