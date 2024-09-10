@@ -17,3 +17,4 @@ class TestModalDialogs(BaseTest):
         self.modal_dialogs_page.click_small_modal_button()
         self.modal_dialogs_page.click_close_small_modal_button()
         self.modal_dialogs_page.click_large_modal_button()
+        self.modal_dialogs_page.click_close_large_modal_button()
