@@ -1,5 +1,6 @@
 import pytest
 
+from tyt.pages.accordian_page import AccordianPage
 from tyt.pages.alerts_page import AlertsPage
 from tyt.pages.broken_links_images_page import BrokenLinksImagesPage
 from tyt.pages.browser_windows_page import BrowserWindowsPage
@@ -39,6 +40,7 @@ class BaseTest:
     frames_page: FramesPage
     nested_frames_page: NestedFramesPage
     modal_dialogs_page: ModalDialogsPage
+    accordian_page: AccordianPage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -60,3 +62,4 @@ class BaseTest:
         request.cls.frames_page = FramesPage(driver)
         request.cls.nested_frames_page = NestedFramesPage(driver)
         request.cls.modal_dialogs_page = ModalDialogsPage(driver)
+        request.cls.accordian_page = AccordianPage(driver)

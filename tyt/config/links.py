@@ -16,4 +16,5 @@ class Links:
     FRAMES_PAGE = f"{HOST}/frames"
     NESTED_FRAMES_PAGE = f"{HOST}/nestedframes"
     MODAL_DIALOGS_PAGE = f"{HOST}/modal-dialogs"
+    ACCORDIAN_PAGE = f"{HOST}/accordian"
     # PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"
