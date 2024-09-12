@@ -16,6 +16,5 @@ class CheckBoxPage(BasePage):
     def click_togle_home(self):
         self.wait.until(EC.element_to_be_clickable(self.HOME_TOGLE)).click()
 
-
     def click_check_box_desktop(self):
         self.wait.until(EC.element_to_be_clickable(self.CHECK_BOX_DESKTOP)).click()

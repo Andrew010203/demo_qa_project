@@ -2,6 +2,7 @@ import pytest
 
 from tyt.pages.accordian_page import AccordianPage
 from tyt.pages.alerts_page import AlertsPage
+from tyt.pages.auto_complete_page import AutoCompletePage
 from tyt.pages.broken_links_images_page import BrokenLinksImagesPage
 from tyt.pages.browser_windows_page import BrowserWindowsPage
 from tyt.pages.buttons_page import ButtonsPage
@@ -41,6 +42,7 @@ class BaseTest:
     nested_frames_page: NestedFramesPage
     modal_dialogs_page: ModalDialogsPage
     accordian_page: AccordianPage
+    auto_complete_page: AutoCompletePage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -63,3 +65,4 @@ class BaseTest:
         request.cls.nested_frames_page = NestedFramesPage(driver)
         request.cls.modal_dialogs_page = ModalDialogsPage(driver)
         request.cls.accordian_page = AccordianPage(driver)
+        request.cls.auto_complete_page = AutoCompletePage(driver)

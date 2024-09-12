@@ -74,7 +74,6 @@ class PracticeFormPage(BasePage):
         subject_field.click()
         subject_field.send_keys(subjects)
 
-
     def choose_subjects(self):
         subject = self.wait.until(EC.element_to_be_clickable(self.SUBJECTS))
         subject.click()
