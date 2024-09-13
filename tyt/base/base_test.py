@@ -7,6 +7,7 @@ from tyt.pages.broken_links_images_page import BrokenLinksImagesPage
 from tyt.pages.browser_windows_page import BrowserWindowsPage
 from tyt.pages.buttons_page import ButtonsPage
 from tyt.pages.check_box_page import CheckBoxPage
+from tyt.pages.date_picker_page import DatePickerPage
 from tyt.pages.dynamic_properties_page import DynamicPropertiesPage
 from tyt.pages.frames_page import FramesPage
 from tyt.pages.links_page import LinksPage
@@ -43,6 +44,7 @@ class BaseTest:
     modal_dialogs_page: ModalDialogsPage
     accordian_page: AccordianPage
     auto_complete_page: AutoCompletePage
+    date_picker_page: DatePickerPage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -66,3 +68,4 @@ class BaseTest:
         request.cls.modal_dialogs_page = ModalDialogsPage(driver)
         request.cls.accordian_page = AccordianPage(driver)
         request.cls.auto_complete_page = AutoCompletePage(driver)
+        request.cls.date_picker_page = DatePickerPage(driver)

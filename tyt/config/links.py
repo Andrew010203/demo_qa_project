@@ -17,5 +17,6 @@ class Links:
     NESTED_FRAMES_PAGE = f"{HOST}/nestedframes"
     MODAL_DIALOGS_PAGE = f"{HOST}/modal-dialogs"
     ACCORDIAN_PAGE = f"{HOST}/accordian"
-    AUTOCOMPLETE_PAGE_PAGE = f"{HOST}/auto-complete"
+    AUTOCOMPLETE_PAGE = f"{HOST}/auto-complete"
+    DATE_PICKER_PAGE = f"{HOST}/date-picker"
     # PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"

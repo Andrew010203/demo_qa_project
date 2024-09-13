@@ -8,7 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 
 class AutoCompletePage(BasePage):
-    PAGE_URL = Links.AUTOCOMPLETE_PAGE_PAGE
+    PAGE_URL = Links.AUTOCOMPLETE_PAGE
 
     MAIN_WORD = ("xpath", '//h1[text()="Auto Complete"]')
     MULTIPLE_FIELD = ("xpath", '//*[@id="autoCompleteMultipleInput"]')
