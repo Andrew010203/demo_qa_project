@@ -1,9 +1,9 @@
 import allure
 from allure_commons.types import AttachmentType
+from selenium.webdriver import ActionChains
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.webdriver import WebDriver
-
 
 
 class BasePage:
@@ -34,3 +34,10 @@ class BasePage:
     def scroll_page(self, x, y):
         self.driver.execute_script(f"window.scrollBy({x}, {y})")
         print("scroll to element")
+
+    """Метод взаимодействия со слайдером"""
+    def action_drag_and_drop_by_offset(self, element, x_coords, y_coords):
+        action = ActionChains(self.driver)
+        action.drag_and_drop_by_offset(element, x_coords, y_coords)
+        action.release()
+        action.perform()

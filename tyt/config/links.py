@@ -19,4 +19,5 @@ class Links:
     ACCORDIAN_PAGE = f"{HOST}/accordian"
     AUTOCOMPLETE_PAGE = f"{HOST}/auto-complete"
     DATE_PICKER_PAGE = f"{HOST}/date-picker"
+    SLIDER_PAGE = f"{HOST}/slider"
     # PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"

@@ -15,6 +15,7 @@ from tyt.pages.modal_dialogs_page import ModalDialogsPage
 from tyt.pages.nested_frames_page import NestedFramesPage
 from tyt.pages.practice_form_page import PracticeFormPage
 from tyt.pages.radio_button_page import RadioButtonPage
+from tyt.pages.slider_page import SliderPage
 # from config.data import Data
 from tyt.pages.text_box_page import TextBoxPage
 from tyt.pages.upload_and_download_page import UploadAndDownloadPage
@@ -45,6 +46,7 @@ class BaseTest:
     accordian_page: AccordianPage
     auto_complete_page: AutoCompletePage
     date_picker_page: DatePickerPage
+    slider_page: SliderPage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -69,3 +71,4 @@ class BaseTest:
         request.cls.accordian_page = AccordianPage(driver)
         request.cls.auto_complete_page = AutoCompletePage(driver)
         request.cls.date_picker_page = DatePickerPage(driver)
+        request.cls.slider_page = SliderPage(driver)
