@@ -14,6 +14,7 @@ from tyt.pages.links_page import LinksPage
 from tyt.pages.modal_dialogs_page import ModalDialogsPage
 from tyt.pages.nested_frames_page import NestedFramesPage
 from tyt.pages.practice_form_page import PracticeFormPage
+from tyt.pages.progress_bar_page import ProgressBarPage
 from tyt.pages.radio_button_page import RadioButtonPage
 from tyt.pages.slider_page import SliderPage
 # from config.data import Data
@@ -47,6 +48,7 @@ class BaseTest:
     auto_complete_page: AutoCompletePage
     date_picker_page: DatePickerPage
     slider_page: SliderPage
+    progress_bar_page: ProgressBarPage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -72,3 +74,4 @@ class BaseTest:
         request.cls.auto_complete_page = AutoCompletePage(driver)
         request.cls.date_picker_page = DatePickerPage(driver)
         request.cls.slider_page = SliderPage(driver)
+        request.cls.progress_bar_page = ProgressBarPage(driver)

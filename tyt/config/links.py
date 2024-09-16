@@ -20,4 +20,5 @@ class Links:
     AUTOCOMPLETE_PAGE = f"{HOST}/auto-complete"
     DATE_PICKER_PAGE = f"{HOST}/date-picker"
     SLIDER_PAGE = f"{HOST}/slider"
+    PROGRESS_BAR_PAGE = f"{HOST}/progress-bar"
     # PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"

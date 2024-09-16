@@ -4,10 +4,10 @@ import allure
 from tyt.base.base_test import BaseTest
 
 
-@allure.feature("Check slider")
+@allure.feature("Slider")
 class TestSlider(BaseTest):
 
-    @allure.title("Input data slider")
+    @allure.title("Check slider")
     @allure.severity("Critical")
     # @pytest.mark.smoke
     def test_slider(self):
@@ -15,4 +15,3 @@ class TestSlider(BaseTest):
         self.slider_page.is_opened()
         self.slider_page.check_main_word()
         self.slider_page.use_slider()
-        time.sleep(3)

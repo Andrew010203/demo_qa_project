@@ -1,7 +1,5 @@
 import random
 
-from selenium.webdriver import ActionChains
-
 from tyt.base.base_page import BasePage
 from tyt.config.links import Links
 
@@ -30,5 +28,5 @@ class SliderPage(BasePage):
         assert data_slider == data_field
 
         print(value_before, value_after)
-        assert value_before != value_after
+        assert value_before != value_after, "Ошибка"
 
