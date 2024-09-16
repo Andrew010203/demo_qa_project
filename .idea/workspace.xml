@@ -8,8 +8,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyt/base/base_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/base/base_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyt/config/links.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/config/links.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyt/tests/test_date_picker.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/tests/test_date_picker.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyt/tests/test_progress_bar.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/tests/test_progress_bar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyt/tests/test_tabs.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/tests/test_tabs.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

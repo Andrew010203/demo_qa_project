@@ -22,4 +22,5 @@ class Links:
     SLIDER_PAGE = f"{HOST}/slider"
     PROGRESS_BAR_PAGE = f"{HOST}/progress-bar"
     TABS_PAGE = f"{HOST}/tabs"
+    TOOL_TIPS_PAGE = f"{HOST}/tool-tips"
     # PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"

@@ -4,7 +4,7 @@ from tyt.base.base_test import BaseTest
 
 
 @allure.feature("Progress bar")
-class TestSlider(BaseTest):
+class TestProgressBar(BaseTest):
 
     @allure.title("Check progress bar")
     @allure.severity("Critical")

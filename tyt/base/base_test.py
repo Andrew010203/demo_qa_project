@@ -20,6 +20,7 @@ from tyt.pages.slider_page import SliderPage
 from tyt.pages.tabs_page import TabsPage
 # from config.data import Data
 from tyt.pages.text_box_page import TextBoxPage
+from tyt.pages.tool_tips_page import ToolTipsPage
 from tyt.pages.upload_and_download_page import UploadAndDownloadPage
 from tyt.pages.web_tables_page import WebTablesPage
 
@@ -51,6 +52,7 @@ class BaseTest:
     slider_page: SliderPage
     progress_bar_page: ProgressBarPage
     tabs_page: TabsPage
+    tool_tips_page: ToolTipsPage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -78,3 +80,4 @@ class BaseTest:
         request.cls.slider_page = SliderPage(driver)
         request.cls.progress_bar_page = ProgressBarPage(driver)
         request.cls.tabs_page = TabsPage(driver)
+        request.cls.tool_tips_page = ToolTipsPage(driver)

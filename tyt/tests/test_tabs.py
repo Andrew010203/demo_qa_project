@@ -4,7 +4,7 @@ from tyt.base.base_test import BaseTest
 
 
 @allure.feature("Tabs")
-class TestSlider(BaseTest):
+class TestTabs(BaseTest):
 
     @allure.title("Check tabs")
     @allure.severity("Critical")
@@ -16,4 +16,3 @@ class TestSlider(BaseTest):
         self.tabs_page.click_what_tab()
         self.tabs_page.click_origin_tab()
         self.tabs_page.click_use_tab()
-        time.sleep(3)
