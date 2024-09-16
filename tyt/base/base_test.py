@@ -17,6 +17,7 @@ from tyt.pages.practice_form_page import PracticeFormPage
 from tyt.pages.progress_bar_page import ProgressBarPage
 from tyt.pages.radio_button_page import RadioButtonPage
 from tyt.pages.slider_page import SliderPage
+from tyt.pages.tabs_page import TabsPage
 # from config.data import Data
 from tyt.pages.text_box_page import TextBoxPage
 from tyt.pages.upload_and_download_page import UploadAndDownloadPage
@@ -49,6 +50,7 @@ class BaseTest:
     date_picker_page: DatePickerPage
     slider_page: SliderPage
     progress_bar_page: ProgressBarPage
+    tabs_page: TabsPage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -75,3 +77,4 @@ class BaseTest:
         request.cls.date_picker_page = DatePickerPage(driver)
         request.cls.slider_page = SliderPage(driver)
         request.cls.progress_bar_page = ProgressBarPage(driver)
+        request.cls.tabs_page = TabsPage(driver)

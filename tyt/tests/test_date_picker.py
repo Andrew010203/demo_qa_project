@@ -4,7 +4,7 @@ import allure
 from tyt.base.base_test import BaseTest
 
 
-@allure.feature("Check date picker")
+@allure.feature("Date picker")
 class TestDatePicker(BaseTest):
 
     @allure.title("Input date")

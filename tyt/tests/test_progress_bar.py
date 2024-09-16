@@ -1,5 +1,4 @@
 import time
-
 import allure
 from tyt.base.base_test import BaseTest
 
@@ -15,4 +14,3 @@ class TestSlider(BaseTest):
         self.progress_bar_page.is_opened()
         self.progress_bar_page.check_main_word()
         self.progress_bar_page.choose_progress_bar_value()
-        time.sleep(3)
