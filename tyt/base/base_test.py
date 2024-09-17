@@ -11,6 +11,7 @@ from tyt.pages.date_picker_page import DatePickerPage
 from tyt.pages.dynamic_properties_page import DynamicPropertiesPage
 from tyt.pages.frames_page import FramesPage
 from tyt.pages.links_page import LinksPage
+from tyt.pages.menu_page import MenuPage
 from tyt.pages.modal_dialogs_page import ModalDialogsPage
 from tyt.pages.nested_frames_page import NestedFramesPage
 from tyt.pages.practice_form_page import PracticeFormPage
@@ -53,6 +54,7 @@ class BaseTest:
     progress_bar_page: ProgressBarPage
     tabs_page: TabsPage
     tool_tips_page: ToolTipsPage
+    menu_page: MenuPage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -81,3 +83,4 @@ class BaseTest:
         request.cls.progress_bar_page = ProgressBarPage(driver)
         request.cls.tabs_page = TabsPage(driver)
         request.cls.tool_tips_page = ToolTipsPage(driver)
+        request.cls.menu_page = MenuPage(driver)
