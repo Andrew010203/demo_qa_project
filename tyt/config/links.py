@@ -24,4 +24,5 @@ class Links:
     TABS_PAGE = f"{HOST}/tabs"
     TOOL_TIPS_PAGE = f"{HOST}/tool-tips"
     MENU_PAGE = f"{HOST}/menu#"
+    SORTABLE_PAGE = f"{HOST}/sortable"
     # PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"

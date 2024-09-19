@@ -18,6 +18,7 @@ from tyt.pages.practice_form_page import PracticeFormPage
 from tyt.pages.progress_bar_page import ProgressBarPage
 from tyt.pages.radio_button_page import RadioButtonPage
 from tyt.pages.slider_page import SliderPage
+from tyt.pages.sortable_page import SortablePage
 from tyt.pages.tabs_page import TabsPage
 # from config.data import Data
 from tyt.pages.text_box_page import TextBoxPage
@@ -55,6 +56,7 @@ class BaseTest:
     tabs_page: TabsPage
     tool_tips_page: ToolTipsPage
     menu_page: MenuPage
+    sortable_page: SortablePage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -84,3 +86,4 @@ class BaseTest:
         request.cls.tabs_page = TabsPage(driver)
         request.cls.tool_tips_page = ToolTipsPage(driver)
         request.cls.menu_page = MenuPage(driver)
+        request.cls.sortable_page = SortablePage(driver)
