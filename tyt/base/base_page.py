@@ -41,4 +41,5 @@ class BasePage:
         action.drag_and_drop_by_offset(element, x_coords, y_coords)
         action.release()
         action.perform()
+        return (x_coords, y_coords)
 

@@ -26,4 +26,5 @@ class Links:
     MENU_PAGE = f"{HOST}/menu#"
     SORTABLE_PAGE = f"{HOST}/sortable"
     SELECTABLE_PAGE = f"{HOST}/selectable"
+    RESIZABLE_PAGE = f"{HOST}/resizable"
     # PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"
