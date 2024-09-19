@@ -17,6 +17,7 @@ from tyt.pages.nested_frames_page import NestedFramesPage
 from tyt.pages.practice_form_page import PracticeFormPage
 from tyt.pages.progress_bar_page import ProgressBarPage
 from tyt.pages.radio_button_page import RadioButtonPage
+from tyt.pages.slectable_page import SelectablePage
 from tyt.pages.slider_page import SliderPage
 from tyt.pages.sortable_page import SortablePage
 from tyt.pages.tabs_page import TabsPage
@@ -57,6 +58,7 @@ class BaseTest:
     tool_tips_page: ToolTipsPage
     menu_page: MenuPage
     sortable_page: SortablePage
+    selectable_page: SelectablePage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -87,3 +89,4 @@ class BaseTest:
         request.cls.tool_tips_page = ToolTipsPage(driver)
         request.cls.menu_page = MenuPage(driver)
         request.cls.sortable_page = SortablePage(driver)
+        request.cls.selectable_page = SelectablePage(driver)
