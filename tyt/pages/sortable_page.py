@@ -13,9 +13,6 @@ class SortablePage(BasePage):
     TAB_LIST = ("xpath", '//a[text()="List"]')
     LIST_ITEM = ("xpath", '//div[@id="demo-tabpane-list"]/div')
     TAB_GRID = ("xpath", '//a[@id="demo-tab-grid"]')
-    # GRID_ITEM = ("xpath", '//div[@class="create-grid"]')
-    # GRID_ITEM = ("xpath", '//div[@id="demo-tabpane-grid"]//*[@class="list-group-item list-group-item-action"]')
-    # GRID_ITEM = ("xpath", f'(//div[@id="demo-tabpane-grid"]//div)[{random.randint(3, 11)}]')
     GRID_ITEM = ("xpath", f'(//div[@id="demo-tabpane-grid"]//*[@class="list-group-item list-group-item-action"])[2]')
 
     list_list = ['One', 'Two', 'Three', 'Four', 'Five', 'Six']
@@ -23,10 +20,6 @@ class SortablePage(BasePage):
 
     def check_main_word(self):
         self.wait.until(EC.text_to_be_present_in_element(self.MAIN_WORD, 'Sortable')), "Текст не совпадает"
-
-    # def get_sortable_items(self, elements):
-    #     item_list = self.wait.until(EC.presence_of_all_elements_located(*elements))
-    #     return [item.text for item in item_list]
 
     def drag_and_drop_random_list(self):
         # Выбираем случайный элемент из списка

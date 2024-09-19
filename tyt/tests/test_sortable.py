@@ -13,6 +13,5 @@ class TestSortable(BaseTest):
         self.sortable_page.open()
         self.sortable_page.is_opened()
         self.sortable_page.check_main_word()
-        # self.sortable_page.drag_and_drop_random_list()
+        self.sortable_page.drag_and_drop_random_list()
         self.sortable_page.drag_and_drop_random_grit()
-        time.sleep(3)
