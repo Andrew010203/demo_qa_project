@@ -43,3 +43,9 @@ class BasePage:
         action.perform()
         return (x_coords, y_coords)
 
+    def drag_and_drop(self, what, where):
+        action = ActionChains(self.driver)
+        action.drag_and_drop(what, where)
+        action.release()
+        action.perform()
+

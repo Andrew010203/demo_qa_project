@@ -27,4 +27,5 @@ class Links:
     SORTABLE_PAGE = f"{HOST}/sortable"
     SELECTABLE_PAGE = f"{HOST}/selectable"
     RESIZABLE_PAGE = f"{HOST}/resizable"
+    DROPPABLE_PAGE = f"{HOST}/droppable"
     # PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"
