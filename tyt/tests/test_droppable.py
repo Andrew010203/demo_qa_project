@@ -9,7 +9,7 @@ class TestDroppable(BaseTest):
     @allure.title("Check droppable")
     @allure.severity("Critical")
     # @pytest.mark.smoke
-    def test_selectable(self):
+    def test_droppable(self):
         self.droppable_page.open()
         self.droppable_page.is_opened()
         self.droppable_page.check_main_word()
