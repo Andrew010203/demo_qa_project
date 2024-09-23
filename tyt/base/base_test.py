@@ -8,6 +8,7 @@ from tyt.pages.browser_windows_page import BrowserWindowsPage
 from tyt.pages.buttons_page import ButtonsPage
 from tyt.pages.check_box_page import CheckBoxPage
 from tyt.pages.date_picker_page import DatePickerPage
+from tyt.pages.dragabble_page import DragabblePage
 from tyt.pages.droppable_page import DroppablePage
 from tyt.pages.dynamic_properties_page import DynamicPropertiesPage
 from tyt.pages.frames_page import FramesPage
@@ -63,6 +64,7 @@ class BaseTest:
     selectable_page: SelectablePage
     resizable_page: ResizablePage
     droppable_page: DroppablePage
+    dragabble_page: DragabblePage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
@@ -96,3 +98,4 @@ class BaseTest:
         request.cls.selectable_page = SelectablePage(driver)
         request.cls.resizable_page = ResizablePage(driver)
         request.cls.droppable_page = DroppablePage(driver)
+        request.cls.dragabble_page = DragabblePage(driver)

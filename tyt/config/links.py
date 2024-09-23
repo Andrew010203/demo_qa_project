@@ -28,4 +28,5 @@ class Links:
     SELECTABLE_PAGE = f"{HOST}/selectable"
     RESIZABLE_PAGE = f"{HOST}/resizable"
     DROPPABLE_PAGE = f"{HOST}/droppable"
+    DRAGABBLE_PAGE = f"{HOST}/dragabble"
     # PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"
