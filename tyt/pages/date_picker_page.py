@@ -1,5 +1,3 @@
-import random
-
 from data_generators.date_generator import DateGenerator
 from data_generators.time_generator import TimeGenerator
 from tyt.base.base_page import BasePage

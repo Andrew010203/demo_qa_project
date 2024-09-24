@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="c57e7701-8523-43d7-ac2f-e3fd94ad2e39" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyt/pages/accordian_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/pages/accordian_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyt/pages/date_picker_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/pages/date_picker_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyt/tests/test_accordian.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/tests/test_accordian.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,11 +57,11 @@
       <recent name="C:\Users\Laptop\PycharmProjects\demo_qa_project\download" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Laptop\PycharmProjects\demo_qa_project" />
       <recent name="C:\Users\Laptop\PycharmProjects\demo_qa_project\tyt" />
+      <recent name="C:\Users\Laptop\PycharmProjects\demo_qa_project\tyt\base" />
       <recent name="C:\Users\Laptop\PycharmProjects\demo_qa_project\download" />
       <recent name="C:\Users\Laptop\PycharmProjects\demo_qa_project\down" />
-      <recent name="C:\Users\Laptop\PycharmProjects\demo_qa_project" />
-      <recent name="C:\Users\Laptop\PycharmProjects\demo_qa_project\tst\tests" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests for tyt.tests.test_broken_links_images.TestBrokenLinksImages">

@@ -16,5 +16,7 @@ class TestAccordian(BaseTest):
         self.accordian_page.check_main_word()
         self.accordian_page.scroll_page(0, 200)
         self.accordian_page.click_what_card()
+        time.sleep(1)
         self.accordian_page.click_where_card()
+        time.sleep(1)
         self.accordian_page.click_why_card()
