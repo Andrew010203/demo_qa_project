@@ -1,6 +1,6 @@
 import random
 
-from data_generators.color_generator import ColorGenerator
+from tyt.data_generators.color_generator import ColorGenerator
 from tyt.base.base_page import BasePage
 from tyt.config.links import Links
 from selenium.webdriver import Keys

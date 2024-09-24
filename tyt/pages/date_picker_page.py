@@ -1,5 +1,5 @@
-from data_generators.date_generator import DateGenerator
-from data_generators.time_generator import TimeGenerator
+from tyt.data_generators.date_generator import DateGenerator
+from tyt.data_generators.time_generator import TimeGenerator
 from tyt.base.base_page import BasePage
 from tyt.config.links import Links
 from selenium.webdriver import Keys

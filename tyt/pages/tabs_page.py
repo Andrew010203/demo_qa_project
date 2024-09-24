@@ -1,5 +1,3 @@
-import random
-import time
 
 from tyt.base.base_page import BasePage
 from tyt.config.links import Links

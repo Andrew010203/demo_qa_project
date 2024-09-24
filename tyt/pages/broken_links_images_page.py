@@ -2,6 +2,7 @@ from tyt.base.base_page import BasePage
 from tyt.config.links import Links
 from selenium.webdriver.support import expected_conditions as EC
 
+
 class BrokenLinksImagesPage(BasePage):
 
     PAGE_URL = Links.BROKEN_LINKS_IMAGES_PAGE
