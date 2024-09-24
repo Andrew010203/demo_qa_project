@@ -29,4 +29,6 @@ class Links:
     RESIZABLE_PAGE = f"{HOST}/resizable"
     DROPPABLE_PAGE = f"{HOST}/droppable"
     DRAGABBLE_PAGE = f"{HOST}/dragabble"
+    LOGIN_PAGE = f"{HOST}/login"
+    REGISTER_PAGE = f"{HOST}/register"
     # PERSONAL_PAGE = f"{HOST}/pim/viewPersonalDetails/empNumber/7"

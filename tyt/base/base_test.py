@@ -13,18 +13,20 @@ from tyt.pages.droppable_page import DroppablePage
 from tyt.pages.dynamic_properties_page import DynamicPropertiesPage
 from tyt.pages.frames_page import FramesPage
 from tyt.pages.links_page import LinksPage
+from tyt.pages.login_page import LoginPage
 from tyt.pages.menu_page import MenuPage
 from tyt.pages.modal_dialogs_page import ModalDialogsPage
 from tyt.pages.nested_frames_page import NestedFramesPage
 from tyt.pages.practice_form_page import PracticeFormPage
 from tyt.pages.progress_bar_page import ProgressBarPage
 from tyt.pages.radio_button_page import RadioButtonPage
+from tyt.pages.register_page import RegisterPage
 from tyt.pages.resizable_page import ResizablePage
 from tyt.pages.slectable_page import SelectablePage
 from tyt.pages.slider_page import SliderPage
 from tyt.pages.sortable_page import SortablePage
 from tyt.pages.tabs_page import TabsPage
-# from config.data import Data
+from tyt.config.data import Data
 from tyt.pages.text_box_page import TextBoxPage
 from tyt.pages.tool_tips_page import ToolTipsPage
 from tyt.pages.upload_and_download_page import UploadAndDownloadPage
@@ -35,7 +37,7 @@ from tyt.pages.web_tables_page import WebTablesPage
 
 class BaseTest:
 
-    # data: Data
+    data: Data
 
     text_box_page: TextBoxPage
     check_box_page: CheckBoxPage
@@ -65,11 +67,13 @@ class BaseTest:
     resizable_page: ResizablePage
     droppable_page: DroppablePage
     dragabble_page: DragabblePage
+    register_page: RegisterPage
+    login_page: LoginPage
 
     @pytest.fixture(autouse=True)
     def setup(self, request, driver):
         request.cls.driver = driver
-        # request.cls.data = Data()
+        request.cls.data = Data()
 
         request.cls.text_box_page = TextBoxPage(driver)
         request.cls.check_box_page = CheckBoxPage(driver)
@@ -99,3 +103,5 @@ class BaseTest:
         request.cls.resizable_page = ResizablePage(driver)
         request.cls.droppable_page = DroppablePage(driver)
         request.cls.dragabble_page = DragabblePage(driver)
+        request.cls.register_page = RegisterPage(driver)
+        request.cls.login_page = LoginPage(driver)

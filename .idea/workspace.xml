@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c57e7701-8523-43d7-ac2f-e3fd94ad2e39" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_generators/color_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_generators/color_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_generators/date_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_generators/date_generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_generators/time_generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_generators/time_generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyt/base/base_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/base/base_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyt/config/data.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/config/data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tyt/config/links.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/config/links.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tyt/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/conftest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyt/pages/auto_complete_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/pages/auto_complete_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyt/pages/broken_links_images_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/pages/broken_links_images_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyt/pages/date_picker_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/pages/date_picker_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tyt/pages/tabs_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/tyt/pages/tabs_page.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
