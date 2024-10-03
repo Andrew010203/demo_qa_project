@@ -16,3 +16,4 @@ class TestLogin(BaseTest):
         self.login_page.enter_user_name(self.data.LOGIN)
         self.login_page.enter_password(self.data.PASSWORD)
         self.login_page.click_login_button()
+
